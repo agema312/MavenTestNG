@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="/Users/Agema/Documents/MavenTestNG">
+
+          <parameter name="browser" value="safari"/>
+          <parameter name="browser1" value="chrome"/>
+
+        <groups>
+            <run>
+                <include name="UI"/>
+            </run>
+        </groups>
+
+
+        <classes>
+<!--            <class name="demo.hw.hw1_calculator_TestNGAnnotations.CalculatorTest">-->
+<!--                <methods>-->
+<!--                    <include name="testAddition"/>-->
+<!--                    <include name="testMultiplication"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--            <class name="demo.hw.hw2_сalculator_Reporter.log.CalculatorTest">-->
+<!--                <methods>-->
+<!--                    <include name="testAddition"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--            <class name="demo.hw.hw3_notDataProvider.TestClass1">-->
+<!--                <methods>-->
+<!--                    <include name="testAdditionMultipleCases"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--            <class name="demo.hw.hw4_notDataProviderRandom.TestCalculator">-->
+<!--                <methods>-->
+<!--                    <include name="testAdditionWithNumbers"/>-->
+<!--                    <include name="tesMultiplicationWithRandomNumbers"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--            <class name="demo.hw.TestNG.Calculator">-->
+<!--                <methods>-->
+<!--                    <include name="testAdd"/>-->
+<!--                    <include name="testSubtract"/>-->
+<!--                    <include name="testMultiply"/>-->
+<!--                    <include name="testDivide"/>-->
+<!--                    <include name="testDivideByZero"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--            <class name="demo.hw.TestNG.DataProviderDemo">-->
+<!--                <methods>-->
+<!--                    <include name="testWithRandomData"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--            <class name="demo.hw.TestNG.TestNGAnnotations">-->
+<!--                <methods>-->
+<!--                    <include name="test1"/>-->
+<!--                    <include name="test2"/>-->
+<!--                    <include name="test3"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--            <class name="demo.hw.TestNG.Text">-->
+<!--                <methods>-->
+<!--                    <include name="test"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+            <class name="demo.hw.TestNG.ParameterizedTests"/>
+            <class name="demo.hw.TestNG.GroupsTest"/>
+        </classes>
+    </test>
+</suite>
